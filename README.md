@@ -15,11 +15,11 @@ This is a locally hosted tool designed for educational purposes to demonstrate b
 
 
 ## Installation
-
 ### Prerequisites
 Before setting up this tool, ensure you have the following installed:
 - [Python 3](https://www.python.org/downloads/)
 - [MySQL server](https://www.mysql.com/downloads/)
+
 
 ### Steps
 1. **Clone the repository**:
@@ -63,7 +63,7 @@ Before setting up this tool, ensure you have the following installed:
 
 
 ## Usage
-**Secure Server**:
+###Secure Server:
 1. **Signup**:
    - Enter the target URL, HTTP method, headers, and payload.
 
@@ -73,7 +73,7 @@ Before setting up this tool, ensure you have the following installed:
 5. **Simulate Attack**:
    - View real-time logs as the tool tests each password combination.
 
-**Attacking Toolkit**:
+###Attacking Toolkit:
 1. **Use Burp Suite to Intercept Requests**:
    - Use Burp Suite to intercept the HTTP request sent during the login process.
    - Capture the target URL, HTTP method, headers, and payload to configure the attacking toolkit.
@@ -105,7 +105,7 @@ Before setting up this tool, ensure you have the following installed:
   ```
 
 ## Files Descriptions
-# Web Server:
+### Web Server:
 - **public/**:
   - **dashboard.html**: The user dashboard interface displayed after successful login.
   - **index.html**: The main page for login and signup functionalities.
@@ -114,6 +114,6 @@ Before setting up this tool, ensure you have the following installed:
 - **server.py**: Python-based web server handling user authentication, dashboard rendering, and secure password management.
 - **settings.py**: Contains configurations such as database credentials, file paths, and API keys used by the server.
   
-# Attacking Toolkit:
+### Attacking Toolkit:
 - **attack.py**: Script for executing dictionary and brute force password attacks on the target URL. It includes GUI for request configuration.
 - **wordlist.txt**: A pre-defined list of potential passwords used during dictionary attacks.
