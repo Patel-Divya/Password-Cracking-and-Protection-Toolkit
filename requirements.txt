@@ -1,0 +1,4 @@
+Flask==2.3.3
+mysql-connector-python==8.0.34
+passlib==1.7.4
+requests==2.31.0
