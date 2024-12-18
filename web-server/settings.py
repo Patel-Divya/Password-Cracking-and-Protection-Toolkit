@@ -1,0 +1,5 @@
+HOST = 'your_host'  
+USER_NAME = 'your_user'  
+PASSWORD = 'your_password'  
+DB_NAME = 'your_database'  
+FOLDER_PATH = 'public_folder_path'  
