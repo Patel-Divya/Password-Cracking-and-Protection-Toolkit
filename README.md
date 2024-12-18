@@ -63,7 +63,7 @@ Before setting up this tool, ensure you have the following installed:
 
 
 ## Usage
-###Secure Server:
+### Secure Server:
 1. **Signup**:
    - Enter the target URL, HTTP method, headers, and payload.
 
@@ -73,7 +73,7 @@ Before setting up this tool, ensure you have the following installed:
 5. **Simulate Attack**:
    - View real-time logs as the tool tests each password combination.
 
-###Attacking Toolkit:
+### Attacking Toolkit:
 1. **Use Burp Suite to Intercept Requests**:
    - Use Burp Suite to intercept the HTTP request sent during the login process.
    - Capture the target URL, HTTP method, headers, and payload to configure the attacking toolkit.
